@@ -1,0 +1,12 @@
+Historique\Historique.class
+com\mycompany\backend\resources\JakartaEE10Resource.class
+Panier\Panier.class
+ServletConnexion\ServerSender.class
+Commandes\Commande.class
+com\mycompany\backend\JakartaRestConfiguration.class
+Utilisateurs\Utilisateur.class
+CorsHandling\CorsFilter.class
+testBD\main.class
+Produits\Produit.class
+Admin\Admin.class
+ConnectionBD\ConnectionBD.class

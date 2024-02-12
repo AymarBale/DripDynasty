@@ -1,0 +1,40 @@
+CREATE TABLE Utilisateurs(
+user_id serial not null PRIMARY KEY,
+nom VARCHAR(50),
+email VARCHAR(50),
+motDePasse VARCHAR(50),
+programmeFidelite bool,
+
+isAdmin bool
+);
+
+CREATE TABLE Produits(
+product_id serial not null PRIMARY KEY,
+taille VARCHAR(200),
+prix DECIMAL(8, 4),
+marque VARCHAR(200),
+description VARCHAR(200),
+couleur VARCHAR(200),
+quantite int,
+saison VARCHAR(200),
+nom VARCHAR(200),
+image TEXT
+);
+
+CREATE TABLE Commandes(
+Command_id serial not null PRIMARY KEY,
+product_id int,
+user_id int,
+quantite int,
+prix DECIMAL(8, 4),
+Command_date date
+);
+
+CREATE TABLE Panier(
+product_id int,
+user_id int,
+quantite int,
+prix DECIMAL(8, 4),
+FOREIGN KEY (product_id) REFERENCES Produits(product_id),
+FOREIGN KEY (user_id) REFERENCES Utilisateurs(user_id)
+)

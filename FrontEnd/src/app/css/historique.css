@@ -1,0 +1,32 @@
+.historique{
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 302px);
+}
+
+.histo-user, .histo-prod{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.histo-user{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.histo-prod{
+    margin-bottom: 5px;
+}
+
+.histo-command{
+    width: 50%;
+    margin: 20px auto;
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding: 15px 0 10px;
+}

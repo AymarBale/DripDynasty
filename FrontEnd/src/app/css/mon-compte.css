@@ -1,0 +1,32 @@
+.mon-compte {
+    min-height: calc(100vh - 342px);
+    max-width: 600px;
+    padding: 20px;
+}
+
+.mon-compte-info div{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.mon-compte-info button{
+    margin: 30px 20px;
+}
+
+.mon-compte-info div:first-child{
+    font-size: 32px;
+}
+
+.mon-compte button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mon-compte button:hover {
+    background-color: #c0392b;
+}

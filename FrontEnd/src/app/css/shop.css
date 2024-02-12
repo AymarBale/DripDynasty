@@ -1,0 +1,199 @@
+.shop-listeproduitglobal .shop-listeproduitdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.shop-listeproduitdiv+p {
+    min-height: 220px;
+}
+
+.shop-listeproduitglobal select {
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    border: 3px solid rgb(80, 76, 76);
+    margin: 5px 10px;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+}
+
+.shop-listeproduitglobal select:hover {
+    border: 3px solid rgb(168, 168, 170);
+    background-color: lightgrey;
+}
+
+.shop-listeproduitglobal input {
+    width: 300px;
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid rgb(80, 76, 76);
+}
+
+.shop-listeproduitglobal button {
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    appearance: none;
+    border: 3px solid rgb(80, 76, 76);
+    margin: 5px 10px;
+    border-radius: 5px;
+}
+
+.shop-listeproduitglobal button:hover {
+    border: 3px solid rgb(168, 168, 170);
+    background-color: lightcoral;
+}
+
+.shop-listeproduitglobal {
+    margin: 20px 0;
+    min-height: calc(100vh - 342px);
+}
+
+.shop-listeproduits ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-rows: 400px;
+    list-style: none;
+    padding: 0;
+    align-items: end;
+}
+
+.shop-listeproduits li {
+    text-align: center;
+    margin: 15px;
+}
+
+.shop-listeproduits li div:first-child {
+    position: relative;
+    height: 250px;
+    margin: 10px 0;
+}
+
+.shop-listeproduits li div:nth-child(2), .shop-listeproduits li div:nth-child(3) {
+    margin-bottom: 5px;
+}
+
+.shop-listeproduits li:hover {
+    cursor: pointer;
+    border: 1px solid #abb8c3;
+}
+
+.shop-listeproduits img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 250px;
+    max-width: calc(100% - 10px);
+}
+
+.shop-listeproduits button {
+    width: 80%;
+    margin-top: 5px;
+    border: 5px solid rgb(80, 76, 76);
+    border-radius: 80% 30px / 80% 30px;
+    height: 30px;
+}
+
+.shop-listeproduits ul+div button {
+    width: 50%;
+    margin: 0 25%;
+}
+
+.shop-listeproduits button:hover {
+    border: 5px solid rgb(168, 168, 170);
+    background-color: rgb(151, 202, 202);
+}
+
+.delete-confirmation-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-confirmation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-product {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(226, 234, 236);
+}
+
+.form-product h2 {
+    text-align: center;
+}
+
+.form-product form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-product label {
+    margin-top: 10px;
+}
+
+.form-product select, .form-product input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.form-product .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-product button {
+    flex: 1;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-product button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+.form-product button[type="button"] {
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.form-product select {
+    text-align: left;
+    width: 100%;
+    height: 30px;
+    border: 2px solid #504c4c;
+    margin: 0;
+    border-radius: 5px;
+    padding: 0 0 0 5px;
+    background-color: white;
+}
+
+.form-product select:hover {
+    background-color: lightblue;
+}

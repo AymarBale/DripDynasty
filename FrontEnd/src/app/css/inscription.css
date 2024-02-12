@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'myFonts';
+    src: url('../fonts/Kanit-BlackItalic.ttf') format('ttf');
+    /* Add more source URLs if needed for different file formats */
+    font-weight: normal;
+    font-style: normal;
+}
+
+#inscription {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#inscription .modal {
+    background-color: #e3eaee;
+    text-align: center;
+    height: 100%;
+}
+
+#inscription {
+    height: 100vh;
+}
+
+.modal-content {
+    display: inline-block;
+    background-color: white;
+    width: 90%;
+    margin-top: 2%;
+    height: 575px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2),
+        -3px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content>h1 {
+    text-align: center;
+    width: 300px;
+    font-family: 'myFonts', sans-serif;
+    color: rgb(49, 48, 48);
+}
+
+.box {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1.5px solid #abb8c3;
+    width: 50%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.box>.content>h2 {
+    font-family: monospace;
+    font-size: 40px;
+    color: rgb(49, 48, 48);
+}
+
+.content #bar {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.content #fidelite {
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+}
+
+#admin {
+    margin-bottom: 20px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.content input[type="checkbox"] {
+    margin-top: 20px;
+    width: 45%;
+
+}
+
+.content button {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #d9dfe2;
+    border: none;
+    margin-bottom: 10px;
+    height: 30px;
+    font-family: monospace;
+}
+
+input#fidelite {
+    width: 55%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.content {
+    position: relative;
+}
+
+.content button:hover {
+    background-color: black;
+    color: white;
+}
+
+label {
+    font-family: monospace;
+}

@@ -1,0 +1,6 @@
+INSERT INTO Utilisateurs (nom, email, motDePasse, programmeFidelite, isAdmin)
+VALUES
+  ('User1', 'user1@example.com', 'test1', true, false),
+  ('User2', 'user2@example.com', 'test2', false, true),
+  ('User3', 'user1@example.com', 'test1', true, false),
+  ('User4', 'user2@example.com', 'test2', false, true);

@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'myFonts';
+    src: url('../fonts/Kanit-BlackItalic.ttf') format('ttf');
+    /* Add more source URLs if needed for different file formats */
+    font-weight: normal;
+    font-style: normal;
+}
+
+#login {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#login .modal {
+    background-color: #e3eaee;
+    text-align: center;
+    height: 100%;
+}
+
+#login {
+    height: 100vh;
+}
+
+#login .modal-content {
+    display: inline-block;
+    background-color: white;
+    width: 90%;
+    margin-top: 2%;
+    height: 500px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2),
+        -3px -3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#login .modal-content>h1 {
+    text-align: center;
+    width: 300px;
+    font-family: 'myFonts', sans-serif;
+    color: rgb(49, 48, 48);
+}
+
+#login .box {
+    display: inline-block;
+    margin-top: 15px;
+    border: 1.5px solid #abb8c3;
+    width: 50%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#login .box>.content>h2 {
+    font-family: monospace;
+    font-size: 40px;
+    color: rgb(49, 48, 48);
+}
+
+#login .content input {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+#login .content input[type="checkbox"] {
+    width: 50%;
+}
+
+#login .content button {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #d9dfe2;
+    border: none;
+    margin-bottom: 10px;
+    height: 30px;
+    font-family: monospace;
+}
+
+#login input#fidelite {
+    width: 45%;
+    color: yellow;
+}
+
+
+#login .content button:hover {
+    background-color: black;
+    color: white;
+}
+
+#login label {
+    font-family: monospace;
+}

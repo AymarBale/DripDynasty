@@ -1,0 +1,252 @@
+/*Accueil*/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  width: 100%;
+}
+
+.imagebasecontainer {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 600px;
+  margin-top: 50px;
+}
+
+.imagebasecontainer h2 {
+  color: blue;
+  text-shadow: 2px 2px 2px black;
+  font-size: 44px;
+  margin: 0;
+}
+
+.imagebasecontainer h4 {
+  color: blue;
+  text-shadow: 1px 1px 1px black;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.div1, .div2, .div3 {
+  position: relative;
+  display: inline-block;
+
+  width: 30%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.div1 img, .div2 img, .div3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.div1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 60%, white 72%);
+}
+
+.div3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 60%, white 72%);
+}
+
+.lineargrad {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to top, #46666e, rgb(255, 255, 255));
+}
+
+.ventespop {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  color: darkblue;
+  text-shadow: 1px 1px 5px lightblue;
+  background: -moz-radial-gradient(circle, rgb(138, 253, 253), rgb(157, 83, 253));
+  border-radius: 50px;
+  padding: 20px 0 20px 0;
+}
+
+.popcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.popularcontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popular {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-height: 550px;
+}
+
+.popular p {
+  height: 50px;
+}
+
+.imgpopular {
+  max-width: 80%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.pop1, .pop2, .pop3, .pop4 {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  border: 1px black solid;
+  background: linear-gradient(to bottom, #57696e, #e7e2e2);
+  padding: 20px;
+  margin-bottom: -50px;
+}
+
+.blackline {
+  max-height: 120px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.detailaccueil {
+  width: 100%;
+  margin-top: 10px;
+  border: 5px solid rgb(80, 76, 76);
+  border-radius: 80% 30px / 80% 30px;
+}
+
+.detailaccueil:hover {
+  border: 5px solid rgb(168, 168, 170);
+  background-color: rgb(151, 202, 202);
+}
+
+.quatreinfoscontainer {
+  display: flex;
+  margin-top: 100px;
+}
+
+.quatreinfos {
+  max-width: 200px;
+  height: 100px;
+  border: 3px solid gray;
+  border-radius: 30px;
+}
+
+.infoscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoscontainer div {
+  text-align: justify;
+  padding: 10px 10% 10px 10%;
+  color: white;
+}
+
+/*Header*/
+
+header {
+  width: 100%;
+}
+
+.logo-nav {
+  max-width: auto;
+  height: 200px;
+  display: flex;
+  background-color: rgb(144, 151, 167);
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 200px;
+  position: relative;
+  right: 10%;
+}
+
+.logo img {
+  width: 80%;
+  height: 80%;
+  border: 2px rgb(12, 12, 110) solid;
+}
+
+nav {
+  min-width: 800px;
+}
+
+.nav li, .nav li+li+li+a+a, .loginbox {
+  list-style: none;
+  border: 2px solid blue hidden;
+  border-bottom: 2px solid blue;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 2%;
+  display: inline-block;
+  width: 120px;
+  background: linear-gradient(to top, rgb(125, 125, 199), rgb(144, 151, 167));
+}
+
+.nav a {
+  text-decoration: none;
+  color: blue;
+}
+
+.nav img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.nav a:first-of-type img {
+  width: 50px;
+  height: 50px;
+  top: 80px;
+  right: 170px;
+}
+
+.nav li+li+a+a img {
+  border: 1px solid rgb(92, 92, 230);
+  border-radius: 70%;
+}
+
+.nav li:hover, .nav li+li+li+a+a:hover, .loginbox:hover {
+  background: linear-gradient(to left, rgb(117, 117, 230), rgb(173, 105, 250));
+  border: 2px solid blue;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+  transform: rotate(2deg);
+}

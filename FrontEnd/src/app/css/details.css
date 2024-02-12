@@ -1,0 +1,145 @@
+.h1-detail {
+    margin-top: 0px;
+}
+
+#content {
+    width: 90%;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.details {
+    width: 100%;
+    min-height: calc(100vh - 302px);
+}
+
+#topContent {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#imageContent {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+
+#imageContent img {
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#infoContent {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+#infoContent>div {
+    margin-left: 60px;
+}
+
+#infoContent>div>h1 {
+    font-family: monospace;
+    margin-bottom: 5px;
+}
+
+#infoContent>div>:nth-child(2) {
+    margin-bottom: 10px;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+#infoContent>div>:nth-child(4) {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#infoContent>div>:nth-child(5) {
+    font-size: 16px;
+    font-family: monospace;
+    color: blue;
+    margin-bottom: 0px;
+}
+
+#infoContent>div>:nth-child(6) {
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: monospace;
+    color: #7A7A7A;
+    width: 500px;
+}
+
+p+span {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#cubes>li {
+    display: inline-block;
+    border: 1px solid #7A7A7A;
+    border-radius: 3px;
+    width: fit-content;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: monospace;
+    margin-left: 5px;
+}
+
+#cubes>li:hover {
+    border: 1px solid black;
+}
+
+#cubes+p {
+    display: inline;
+    margin-top: 0px;
+    font-family: monospace;
+}
+
+#infoContent>:nth-child(2), #infoContent>:nth-child(3) {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+#infoContent>:nth-child(2)>button {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+
+#infoContent>:nth-child(2)>button+span {
+    vertical-align: middle;
+    width: 40px;
+    text-align: center;
+    border: 1px solid black;
+    font-family: monospace;
+}
+
+#infoContent>:nth-child(3) {
+    width: 400px;
+}
+
+#infoContent>:nth-child(3)>button {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: #d9dfe2;
+    border: none;
+    margin-bottom: 10px;
+    height: 30px;
+    font-family: monospace;
+}
+
+#infoContent>:nth-child(3)>button:hover {
+    background-color: black;
+    color: white;
+}

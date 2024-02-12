@@ -1,0 +1,81 @@
+.footerFooter {
+    width: 100%;
+    background: #4A494A;
+    /* Ajuster selon votre besoin */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* Utilisation de la disposition en colonne */
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+/* Ajustement du texte de copyright */
+.footerFooter p {
+    color: #fff;
+    margin: 0;
+    /* Réinitialiser la marge */
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* Ajustement du texte "Powered By Shoe Store" */
+.poweredBy {
+    color: #fff;
+    margin: 0;
+    /* Réinitialiser la marge */
+    font-size: 1rem;
+    font-weight: 300;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    /* Alignement au côté droit */
+}
+
+/* Ajustement du menu */
+.menu {
+    display: flex;
+    flex-direction: row;
+    /* Utilisation de la disposition en ligne */
+    list-style: none;
+    /* Supprimer les puces de la liste */
+    margin: 0;
+    /* Réinitialiser la marge */
+    /*padding: 20px 50px;  Réinitialiser le rembourrage */
+}
+
+.menu__item {
+    margin-right: 100%;
+    /* Espacement entre les éléments du menu */
+}
+
+.menu__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Ajustement des icônes sociales */
+.social-icon {
+    display: flex;
+    flex-direction: row;
+    /* Utilisation de la disposition en ligne */
+    list-style: none;
+    /* Supprimer les puces de la liste */
+    margin: 0;
+    /* Réinitialiser la marge */
+    /*padding: 20px 30px; Réinitialiser le rembourrage */
+}
+
+.social-icon__item {
+    margin-right: 0px;
+    /* Espacement entre les icônes sociales */
+}
+
+.social-icon__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
