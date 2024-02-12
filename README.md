@@ -1,5 +1,24 @@
 # DripDynasty
 
+<h2>Introduction</h2>
+<p> Il s'agit d'un projet fait en équipe dans le cadre de ma formation en Web. Le projet consiste à faire un site web avec deux serveurs, un serveur backend en J2EE et un serveur frontend en React qui communiquent entre eux à l'aide de requêtes. Le serveur backend a quant à lui fait des requêtes vers une base de donnée. Pour ensuite envoyer les réponses vers le front end.</p>
+
+<h2>Liste des fonctionnalite</h2>
+<h4>-Espace client :</h4>
+Il s’agit là de créer une page de connexion qui sera nécessaire quand l’utilisateur voudra payer, mais pas nécessaire pour ajouter des choses dans le panier. Une fois connecté, l’utilisateur pourra accéder à des informations comme son nom et son email.<br>
+ 
+<h4>-Ajouter au panier :</h4>
+Il s'agit de créer un panier ou l’utilisateur pourra ajouter des articles sans se connecter
+et payer. Une fois qu’il aura payé, il recevra les détails des ventes par courriel.le panier sera vider apres
+ 
+<h4>-Moteur de recherche :</h4>
+On veut permettre à l’utilisateur de chercher différents articles dans le catalogue suivant le critère qu'il va choisir.
+ 
+<h4>-Rabais et programme de fidélité :</h4>
+On veut permettre à l’utilisateur de s’inscrire à un programme de fidélité et de se désabonner quand il est un inscrit, il aura une réduction sur les articles  dans le catalogue.
+ 
+<h4>-Fonctionnalité Admin :</h4>
+Permettre à l’admin de voir le stock , de modifier la quantité des produits et leurs stocks. Il sera aussi capable de voir l’historique des achats.
 <h2>Demo</h2>
 
 ![Screenshot (19)](https://github.com/AymarBale/DripDynasty/assets/62848857/422cf729-0428-4abd-85c6-546bf4f17807)
