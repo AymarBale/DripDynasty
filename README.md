@@ -21,6 +21,10 @@ On veut permettre à l’utilisateur de s’inscrire à un programme de fidélit
 Permettre à l’admin de voir le stock , de modifier la quantité des produits et leurs stocks. Il sera aussi capable de voir l’historique des achats.
 <h2>Demo</h2>
 
+
+https://github.com/AymarBale/DripDynasty/assets/62848857/bc7768a4-ddf5-4199-b39a-721e7df898fa
+
+
 ![Screenshot (19)](https://github.com/AymarBale/DripDynasty/assets/62848857/422cf729-0428-4abd-85c6-546bf4f17807)
 
 ![Screenshot (18)](https://github.com/AymarBale/DripDynasty/assets/62848857/71f7a5a3-a1db-412d-b418-720f19e611bc)
